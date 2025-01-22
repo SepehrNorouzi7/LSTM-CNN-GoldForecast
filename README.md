@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a comprehensive implementation of various machine learning and deep learning models for predicting gold prices. By leveraging the strengths of LSTM (Long Short-Term Memory) networks and CNNs (Convolutional Neural Networks), this project provides a robust framework for financial time-series forecasting.
+This project is based on the implementation of the <strong>"Gold Price Forecast Based on LSTM-CNN Model"</strong> paper. The authors proposed a hybrid model combining Long Short-Term Memory (LSTM) networks and Convolutional Neural Networks (CNN) with an Attention mechanism for financial forecasting.
 
 ## Key Features
 
@@ -46,12 +46,15 @@ Line plots provide insights into model performance over time.
 </p>
 
 <p align="center">
-  <img src="https://github.com/SepehrNorouzi7/LSTM-CNN-GoldForecast/blob/main/screenshots/CNN-LSTM.png" alt="Image 3" width="30%" />
-  <img src="https://github.com/SepehrNorouzi7/LSTM-CNN-GoldForecast/blob/main/screenshots/LSTM-CNN.png" alt="Image 4" width="30%" />
-  <img src="https://github.com/SepehrNorouzi7/LSTM-CNN-GoldForecast/blob/main/screenshots/LSTM-Attention-CNN.png" alt="Image 5" width="30%" />
+  <img src="https://github.com/SepehrNorouzi7/LSTM-CNN-GoldForecast/blob/main/screenshots/CNN-LSTM.png" alt="Image 3" width="40%" />
+  <img src="https://github.com/SepehrNorouzi7/LSTM-CNN-GoldForecast/blob/main/screenshots/LSTM-CNN.png" alt="Image 4" width="40%" />
 </p>
 
-<table>
+<p align="center">
+  <img src="https://github.com/SepehrNorouzi7/LSTM-CNN-GoldForecast/blob/main/screenshots/LSTM-Attention-CNN.png" alt="Image 5" width="80%" />
+</p>
+
+<table align="center">
   <thead>
     <tr>
       <th>Model</th>
@@ -98,3 +101,6 @@ Line plots provide insights into model performance over time.
   </tbody>
 </table>
 
+## Reference
+
+<a href="https://www.researchgate.net/publication/337034776_Gold_Price_Forecast_Based_on_LSTM-CNN_Model?enrichId=rgreq-6c23b2d58d61f0523d90761a3341f975-XXX&enrichSource=Y292ZXJQYWdlOzMzNzAzNDc3NjtBUzo4MzE3NDY5ODc4MDY3MjBAMTU3NTMxNTM0MzAzMQ%3D%3D&el=1_x_3&_esc=publicationCoverPdf" target="_blank" style="text-decoration: none; color: blue;">Gold Price Forecast Based on LSTM-CNN Model</a>
